@@ -18,7 +18,7 @@ This module wraps `aiohttp.ClientSession` so that it can be used with APIs such 
         async with client.stream("GET", "https://httpbin.org/get") as resp:  # aiohttp conventional API
             print(await resp.json())
     ```
-1. WebSocket (**WIP**)
+1. 🚧 **WIP**: WebSocket
     ```py
     import aiohttp_client
     
